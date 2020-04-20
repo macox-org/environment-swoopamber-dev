@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:swoopamber/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:swoopamber/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:swoopamber/prow:hmacToken
+segmentWriteKey: vault:swoopamber:segmentWriteKey
